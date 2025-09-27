@@ -1,1 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap');
 @import "tailwindcss";
+
+@theme {
+  
+  --color-coral-1: #ffddc8;
+  --color-coral-2: #ffccad;
+  --color-coral-3: #ffb588;
+  --color-coral-4: #ffa771;
+  --color-coral-5: #ff914d; /* main  */
+  --color-coral-6: #e88446;
+  --color-coral-7: #b56737;
+  --color-coral-8: #8c502a;
+  --color-coral-9: #6b3d20;
+
+  /* Backgrounds */
+  --color-neutral-1: #ffffff;
+  --color-neutral-3: #f6f6f6;
+  --color-neutral-5: #ddddde;
+  --color-neutral-7: #99989c;
+  --color-neutral-9: #59595e;
+  --color-neutral-12: #2e2d35;
+  --color-neutral-13: #1c1b23;
+
+  /* Accent Minty */
+  --color-accent-100: #e4f7f0;
+  --color-accent-300: #c5eedf;
+  --color-accent-500: #a8e6cf;
+  --color-accent-700: #77a393;
+  --color-accent-900: #476157;
+
+  /* Fonts */
+  --font-sans: "Nunito", "Open Sans", system-ui, sans-serif;
+}
+
+
+.glass-nav {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 1rem; /* equivalent to rounded-2xl */
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(5px);
+}

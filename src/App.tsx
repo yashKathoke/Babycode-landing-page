@@ -1,13 +1,13 @@
-
-import './App.css'
+import Navbar from "./components/Nav";
+import Hero from "./components/Hero";
 
 function App() {
-
   return (
-  <>
-  <div className='bg-slate-300 p-3 '>Hello World!</div>
-  </>
-  )
+    <div className="font-sans">
+      <Navbar/>
+      <Hero />
+    </div>
+  );
 }
 
-export default App
+export default App;
