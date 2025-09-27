@@ -2,33 +2,36 @@ import { motion } from "motion/react";
 import TestimonialCard from "./TestimonialCard";
 
 export default function Testimonials() {
-  const testimonials = [
+const testimonials = [
     {
-      quote:"You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.",
-      authorName: "Leslie Alexander",
-      authorTitle: "Freelance React Developer",
-      rating: 5 as const,
+        quote:
+            "Since joining, my confidence in speaking has soared. The instructors are incredibly supportive!",
+        authorName: "Aisha Khan",
+        authorTitle: "IELTS Candidate",
+        rating: 5 as const,
     },
     {
-      quote:"This is the best service I have ever used. I can't believe how much easier my life has become!",
-      authorName: "Michael Scott",
-      authorTitle: "Regional Manager",
-      rating: 4 as const,
+        quote:
+            "The practice tests were invaluable. I knew exactly what to expect on exam day.",
+        authorName: "Kenji Tanaka",
+        authorTitle: "Aspiring Immigrant",
+        rating: 4 as const,
     },
     {
-      quote:"Absolutely wonderful! I would recommend this to anyone looking to improve their workflow.",
-      authorName: "Pam Beesly",
-      authorTitle: "Graphic Designer",
-      rating: 5 as const,
+        quote:
+            "The personalized feedback I received was a game-changer. I improved my writing score significantly.",
+        authorName: "Elena Rodriguez",
+        authorTitle: "University Applicant",
+        rating: 5 as const,
     },
-  ];
+];
 
   const loopTestimonials = [...testimonials, ...testimonials];
 
   return (
     <section className="bg-gray-50 py-16 overflow-hidden" id="testimonials">
       <h2 className="text-3xl font-bold text-center mb-8">
-        What Our Clients Say
+        Testimonials
       </h2>
 
       <div className="relative w-full">
